@@ -1,0 +1,18 @@
+body {
+    background-image: url(bmw.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.content {
+    background: white;
+    width: 50%;
+    padding: 40px;
+    margin: 100px auto;
+    font-family: Calibri;
+}
+
+p {
+    font-size: 25px;
+    color: black;
+}
