@@ -1,8 +1,9 @@
+
 body {
-    background-image: url(bmw.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-}
+    background-image: url(".\\..\\image\\bmw.jpg");
+    background-color: #cccccc;
+    }
+
 
 .content {
     background: white;
