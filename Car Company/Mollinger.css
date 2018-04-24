@@ -24,6 +24,9 @@ ul {
     }
     
     p {
-        background-color: #00ff00;
+        color: #3700ff;
+    }
+    h1{
+        color: red;
     }
     
