@@ -24,9 +24,12 @@ ul {
     }
     
     p {
-        color: #3700ff;
+        color: rgb(0, 0, 0);
     }
     h1{
         color: red;
+    }
+    #wer{
+        float:right;
     }
     
