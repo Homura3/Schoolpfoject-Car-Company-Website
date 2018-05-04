@@ -1,52 +1,38 @@
+/* 
+Changes Friday 4th of May: 
+- removed double styling tags :
+    li a:hover  was twice reffered
+- removed other unnecessary code
+
+Important highlights:
+    display: block          on the nav allows for the full screen width of the navigation bar !
+    display: inline-block   of the li allows for the displaying side by side of the elements
+*/
+
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 200px;
-    background-color: #f1f1f1;
     }
     
-    li a {
-    display: block;
-    color:#00ff00;
-    padding: 8px 16px;
-    text-decoration: none;
-    }
+
     
     /* Change the link color on hover */
-    li a:hover {
-    background-color:#0066ff;
-    color: white;
-    }
     li a.active {
     background-color: #4CAF50;
     color: white;
     }
     
-    p {
-        color: rgb(0, 0, 0);
-    }
-    h1{
-        color: red;
-    }
-    #wer{
-        float:right; 
-    }
-   
-    #me {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
+
+
+  nav {
+        display:block; /*allow the navbar to etend horizontally*/
         background-color: #333;
     }
     
     li {
-        float:left
+        display:inline-block;/*allow the list items to stay side by side*/
     }
     
     li a {
-        
         color: white;
         text-align: center;
         padding: 14px 16px;
@@ -54,6 +40,6 @@ ul {
     }
     
     li a:hover {
-        background-color: #111;
+        background-color: rgb(236, 16, 16);
     }
     
