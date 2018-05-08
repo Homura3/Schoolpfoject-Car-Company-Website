@@ -17,15 +17,20 @@ ul {
     
     /* Change the link color on hover */
     li a.active {
-    background-color: #4CAF50;
+    background-color: rgb(46, 189, 27);
     color: white;
     }
     
 
+    .mainNav{
+        float:left;
+    }
+
 
   nav {
         display:block; /*allow the navbar to etend horizontally*/
-        background-color: #333;
+        background-color: rgb(0, 0, 0)
+        
     }
     
     li {
@@ -44,6 +49,9 @@ ul {
     }
     
     body {
-        background-color: lightblue;
+        background-color: rgb(212, 238, 255);
     }
     
+    .language{
+        float:right;
+    }
