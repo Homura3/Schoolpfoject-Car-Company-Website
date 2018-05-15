@@ -9,11 +9,11 @@ Important highlights:
     display: inline-block   of the li allows for the displaying side by side of the elements
 */
 body {
-    background-color: lightcyan;
+    background-color: rgb(255, 255, 255);
 }
 
 nav {
-    background-color: rgb(209, 10, 10);
+    background-color: rgb(0, 0, 0);
     position: relative; /*!! This is the parent - it is important to include this !*/
 }
 
@@ -24,14 +24,14 @@ ul {
 
 li {
     display:inline-block;/*allow the list items to stay side by side*/
-    background-color: greenyellow;
+    background-color: rgb(255, 255, 255);
     vertical-align: middle;
 }
     
     /* Change the link color on hover */
 li a.active {
     background-color: rgb(46, 189, 27);
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 14px 16px;
 }
       
@@ -56,7 +56,7 @@ li a:hover {
         position: absolute;
         right:0; /* https://stackoverflow.com/questions/11333624/float-right-and-position-absolute-doesnt-work-together */
         padding: 14px;
-        background-color: aqua;
+        background-color: rgb(255, 255, 255);
         border: 1px solid black;
         width: 50px;
 }

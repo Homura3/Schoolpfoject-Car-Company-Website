@@ -4,6 +4,29 @@
 <head>
   <title>Home</title>
   <link rel="stylesheet" type="text/css" href="Mollinger.css">
+  <style>
+    body{
+      background-color: orange
+    }
+    p {
+    border: 1px solid powderblue;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+  </style>
 </head>
 
 <body>
@@ -21,10 +44,10 @@
 
       <li class="language">
         <div class="LangShown">
-          French
+          <a  href="Home_fr.html">French</a>
         </div>
         <div class="LangHidden">
-          English
+          <a class="active" href="Home.html">English</a>
         </div>
       </li>
     </ul>
@@ -32,14 +55,48 @@
 
   <br>
   <br>
-  <h1>contact info:</h1>
+  <h1 style="text-align:center">contact info:</h1>
 
-  <p>
+  <p style="text-align:right">
     <strong>Name:</strong> Christophe Mollinger</p>
-  <p>
+  <p style="text-align:right">
     <strong>E-Mail:</strong> christophe_mollinger@yahoo.de</p>
+    <p style="text-align:right">
+        <strong>Name:</strong> Theo Loyd</p>
+      <p style="text-align:right">
+        <strong>E-Mail:</strong> theo_loyd@yahoo.de</p>
+        <p style="text-align:right">
+            <strong>Name:</strong> Maria Hasting</p>
+          <p style="text-align:right">
+            <strong>E-Mail:</strong> maria_hasting@yahoo.de</p>
 
-
+<br>
+<br>
+<br>
+    <table>
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Languages</th>
+        </tr>
+        <tr>
+          <td>Christophe Mollinger</td>
+          <td>17</td>
+          <td>Lux/Ger/Fr/Eng</td>
+        </tr>
+        <tr>
+          <td>Theo Loyd</td>
+          <td>20</td>
+          <td>Eng/Fr</td>
+        </tr>
+        <tr>
+          <td>Maria Hasting</td>
+          <td>19</td>
+          <td>Eng/Spa</td>
+        </tr>
+       
+      </table>
+      
 
 </body>
 
