@@ -57,7 +57,7 @@ li a:hover {
         right:0; /* https://stackoverflow.com/questions/11333624/float-right-and-position-absolute-doesnt-work-together */
         padding: 14px;
         background-color: rgb(255, 255, 255);
-        border: 1px solid black;
+        border: 1px solid rgb(0, 0, 0);
         width: 50px;
 }
 
