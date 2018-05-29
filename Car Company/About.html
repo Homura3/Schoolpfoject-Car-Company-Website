@@ -5,24 +5,29 @@
   <title>About</title>
 
   <link rel="stylesheet" type="text/css" href="Mollinger.css">
-<style>
-.mypicture{
-  position: absolute;
-  left: 25%;
-  top: 25%;
-  width: 50%;
-  height: 50%;
-  
+  <style>
+    .mypicture {
+      position: relative;
+      
+      width: 50%;
+      height: 50%;
 
-}
-body{
-  background-color: rgb(253, 217, 150)
+
     }
-p {
-  background-color: lightgray
-}
 
-</style>
+    p {
+      background-color: lightgray
+    }
+
+    .mytext {
+      
+      position: relative;
+    }
+    .myContainer{
+      display:flex;
+      justify-content: center;
+    }
+  </style>
 
 </head>
 
@@ -41,7 +46,7 @@ p {
 
       <li class="language">
         <div class="LangHidden">
-          <a  href="About_fr.html">French</a>
+          <a href="About_fr.html">French</a>
         </div>
         <div class="LangShown">
           <a class="active" href="About.html">English</a>
@@ -53,8 +58,14 @@ p {
   <br>
 
   <h1>What's this company about</h1>
-  <p>This is the world's biggest car company</p>
-  <img class="mypicture" src="_93865543_vwstoragereuters.jpg" >
+  <div class="myContainer">
+    <div class="mytext">
+      <p>This is the world's biggest car company. The company was funded in 2017 by 3 teenagers.</p>
+      <p>In this company we sell you cars for not to pricy.</p>
+      <p>Most of our cars are Mercedes Benz but we sell also other kinds of cars</p>
+    </div>
+    <img class="mypicture" src="_93865543_vwstoragereuters.jpg">
+  </div>
 </body>
 
 </html>
