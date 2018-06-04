@@ -5,67 +5,110 @@
   <title>About</title>
 
   <link rel="stylesheet" type="text/css" href="Mollinger.css">
+
   <style>
-    .mypicture {
-      position: relative;
-      
-      width: 50%;
-      height: 50%;
+      body {
+        background-color: rgb(253, 217, 150)
+      }
+  
+    
+      table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+  
+      td,
+      th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+  
+      tr:nth-child(even) {
+        background-color: #dddddd;
+      }
+  
+       .mytext {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        border: 1px solid powderblue;
 
-
-    }
-
-    p {
-      background-color: lightgray
-    }
-
-    .mytext {
-      
-      position: relative;
-    }
-    .myContainer{
-      display:flex;
-      justify-content: center;
-    }
-  </style>
-
+      }
+    </style>
 </head>
 
 <body>
-  <nav>
-    <ul>
-      <li>
-        <a class="active" href="About.html">About</a>
-      </li>
-      <li>
-        <a href="Home.html">Home</a>
-      </li>
-      <li>
-        <a href="Products.html">Product</a>
-      </li>
-
-      <li class="language">
-        <div class="LangHidden">
-          <a href="About_fr.html">French</a>
-        </div>
-        <div class="LangShown">
-          <a class="active" href="About.html">English</a>
-        </div>
-      </li>
-    </ul>
-  </nav>
-  <br>
-  <br>
-
-  <h1 style="font-size:40px;">What's this company about</h1>
-  <div class="myContainer">
-    <div class="mytext">
-      <p style="font-size:20px;">This is the world's biggest car company. <br> The company was funded in 2017 by 3 teenagers.</p>
-      <p style="font-size:20px;">In this company we sell you cars for not to pricy.</p>
-      <p style="font-size:20px;">Most of our cars are Mercedes Benz but we also sell other kinds of cars.</p>
+    <nav>
+      <ul>
+        <li>
+            <a  href="Home.html">Home</a>
+        </li>
+        <li>
+            <a class="active" href="About.html">About</a>  
+        </li>
+        <li>
+          <a href="Products.html">Products</a>
+        </li>
+  
+        <li class="language">
+          <div class="LangHidden">
+            <a href="About_fr.html">French</a>
+          </div>
+          <div class="LangShown">
+            <a class="active" href="About.html">English</a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  
+    <br>
+    <br>
+    <h1 style="text-align:center">contact info:</h1>
+  <div class="mytext">
+    <span style="text-align:right">
+      <strong>Name:</strong> Christophe Mollinger</span>
+    <span style="text-align:right">
+      <strong>E-Mail:</strong> christophe_mollinger@yahoo.de</span>
+    <span style="text-align:right">
+      <strong>Name:</strong> Theo Loyd</span>
+    <span style="text-align:right">
+      <strong>E-Mail:</strong> theo_loyd@yahoo.de</span>
+    <span style="text-align:right">
+      <strong>Name:</strong> Maria Hasting</span>
+    <span style="text-align:right">
+      <strong>E-Mail:</strong> maria_hasting@yahoo.de</span>
     </div>
-    <img class="mypicture" src="_93865543_vwstoragereuters.jpg">
-  </div>
-</body>
+  
+    <br>
+    <br>
+    <br>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Languages</th>
+      </tr>
+      <tr>
+        <td>Christophe Mollinger</td>
+        <td>17</td>
+        <td>Lux/Ger/Fr/Eng</td>
+      </tr>
+      <tr>
+        <td>Theo Loyd</td>
+        <td>20</td>
+        <td>Eng/Fr</td>
+      </tr>
+      <tr>
+        <td>Maria Hasting</td>
+        <td>19</td>
+        <td>Eng/Spa</td>
+      </tr>
+  
+    </table>
+  
+  
+  </body>
 
 </html>

@@ -4,102 +4,70 @@
 <head>
   <title>Home_fr</title>
   <link rel="stylesheet" type="text/css" href="Mollinger.css" />
-  <style>
-    body{
-      background-color: rgb(253, 217, 150)
-    }
-    p {
-    border: 1px solid powderblue;
-}
-table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
+<style>
+.mypicture {
+position: relative;
+
+width: 50%;
+height: 50%;
+
+
 }
 
-td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
+p {
+background-color: lightgray
 }
 
-tr:nth-child(even) {
-    background-color: #dddddd;
+.mytext {
+
+position: relative;
 }
-  </style>
+.myContainer{
+display:flex;
+justify-content: center;
+}
+</style>
 
 </head>
 
 <body>
-  <nav id="me">
-    <ul class="mainNav">
-      <li>
-        <a href="About_fr.html">About</a>
-      </li>
-      <li>
-        <a class="active" href="Home_fr.html">Home</a>
-      </li>
-      <li>
-        <a href="Product_fr.html">Product</a>
-      </li>
-      <li class="language">
-        <div class="LangShown">
-          <a class="active" href="Home_fr.html">French</a>
-        </div>
-        <div class="LangHidden">
-          <a href="Home.html">English</a>
-        </div>
-      </li>
-
-    </ul>
-    
-     
-    
-  </nav>
-
-  <br>
-  <br>
-  <h1 style="text-align:center">Information personnelles:</h1>
-
-  <p style="text-align:right">
-    <strong>Name:</strong> Christophe Mollinger</p>
-  <p style="text-align:right">
-    <strong>E-Mail:</strong> christophe_mollinger@yahoo.de</p>
-    <p style="text-align:right">
-        <strong>Name:</strong> Theo Loyd</p>
-      <p style="text-align:right">
-        <strong>E-Mail:</strong> theo_loyd@yahoo.de</p>
-        <p style="text-align:right">
-            <strong>Name:</strong> Maria Hasting</p>
-          <p style="text-align:right">
-            <strong>E-Mail:</strong> maria_hasting@yahoo.de</p>
-
-<br>
-<br>
-<br>
-    <table>
-        <tr>
-          <th>Nom</th>
-          <th>Age</th>
-          <th>Langues</th>
-        </tr>
-        <tr>
-          <td>Christophe Mollinger</td>
-          <td>17</td>
-          <td>Lux/Ger/Fr/Eng</td>
-        </tr>
-        <tr>
-          <td>Theo Loyd</td>
-          <td>20</td>
-          <td>Eng/Fr</td>
-        </tr>
-        <tr>
-          <td>Maria Hasting</td>
-          <td>19</td>
-          <td>Eng/Spa</td>
-        </tr>
-       
-      </table>
-</body>
+    <nav>
+      <ul>
+        <li>
+            <a class="active" href="Home_fr.html">Home</a> 
+        </li>
+        <li>
+            <a  href="About_fr.html">About</a>
+        </li>
+        <li>
+          <a href="Product_fr.html">Produits</a>
+        </li>
+        
+        <li class="language">
+          <div class="LangShown">
+            <a class="active" href="Home_fr.html">French</a>
+          </div>
+          <div class="LangHidden">
+            <a href="Home.html">English</a>
+          </div>
+        </li>
+        </ul>
+  
+   
+    </nav>
+  
+    <br>
+    <br>
+    <h1 style="font-size:40px;">Quelle est cette entreprise à propos de</h1>
+    <div class="myContainer">
+      <div class="mytext">
+    <p style="font-size:20px;">C'est la plus grande compagnie de voiture du monde.<br> La compagnie a été financée en 2017 par 3 adolescents.</p>
+   <p style="font-size:20px;">Dans cette entreprise, nous vous vendons des voitures pas très cher.</p>
+        <p style="font-size:20px;">La plupart de nos voitures sont Mercedes Benz mais nous vendons aussi d'autres types de voitures</p>
+  </div>
+    <img class="mypicture" src="_93865543_vwstoragereuters.jpg">
+    </div>
+  
+  </body>
 
 </html>
