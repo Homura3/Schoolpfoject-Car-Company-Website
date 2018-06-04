@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <title>Page Title</title>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
 <style>
-    
 * {
     box-sizing: border-box;
 }
@@ -15,37 +18,44 @@ body {
     margin: 0;
 }
 
-.header {
-    padding: 100;
-    text-align: center;
 
-    height: 200px;
-    background-color: #cccccc;
-    background-image: linear-gradient(red, black);
-}
+bottomleft {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 18px;
 }
 
 
-.header h1 {
-    font-size: 40px;
-}
+        .header {
+            padding: 100;
+            text-align: center;
 
-.navbar {
-    overflow: hidden;
-    background-color: rgb(87, 45, 185);
-}
+            height: 200px;
+            background-color: #38d610;
+            background-image: linear-gradient(rgb(134, 34, 47), black);
+        }
 
-.navbar a {
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 20px;
-    text-decoration: none;
-}
+        .header h1 {
+            font-size: 30px;
+        }
+
+        .navbar {
+            overflow: hidden;
+            background-image: linear-gradient(rgb(17, 1, 1), rgb(47, 102, 223));
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
 .navbar a.right {
     float: right;
-    
 }
 
 .navbar a:hover {
@@ -53,11 +63,10 @@ body {
     color: black;
 }
 
-/* Column container */
 .row {  
-    display: -ms-flexbox; /* IE10 */
+    display: -ms-flexbox; 
     display: flex;
-    -ms-flex-wrap: wrap; /* IE10 */
+    -ms-flex-wrap: wrap; 
     flex-wrap: wrap;
 }
 
@@ -74,7 +83,6 @@ body {
     background-color: white;
     padding: 20px;
 }
-
 .fakeimg {
     background-color: #aaa;
     width: 100%;
@@ -97,50 +105,44 @@ body {
     }
 }
 </style>
+</style>
+</style>  </style>
 </head>
+
 <body>
 
-       
-<div class="header">
-    
-  <h1>BMW Group</h1>
-  <p><strong><marquee>FIND YOUR CAR DREAM ON OUR WEBSITE</marquee></strong></p>
-</div>
+    <div class="header">
+        <h1>BMW GROUP</h1>
+        <p>
+            <strong>
+                <marquee>FIND YOUR CAR DREAM ON OUR WEBSITE</marquee>
+            </strong>
+        </p>
+    </div>
 
-<div class="navbar">
-    <a href="home-en.html">Home</a>
-    <a href="product-en.html">Product</a>
-    <a href="about-en.html">About</a>
-    <a href="productfrench.html" class="right">FR</a>
-    <a href="#" class="right">EN</a>
-  </div>
-  <div class="main">
-        <h1 style="background-color:MediumSeaGreen;">RANGE OF PRODUCTS</h1>
+    <div class="navbar">
+        <a href="home-en.html">Home</a>
+        <a href="product-en.html">Product</a>
+        <a href="about-en.html">About</a>
+        <a href="homefrench.html" class="right">FR</a>
+        <a href="home-en.html" class="right">EN</a>
+    </div>
+    <div class="main">
+        <h2></h2>
+        <h5>BMW PRODUCT</h5>
+        <img src="product1.jpg" height="300px" wight="150px">
+        <p>Some text..</p>
+        <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        <br>
+        <h2>BMW</h2>
+        <h5>Title description, Sep 2, 2017</h5>
+        <div class="fakeimg" style="height:200px;">Image</div>
+        <p>Some text..</p>
+        <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    </div>
+    </div>
 
-      <p>In the BMW Group Munich plant approximately 7,800 employees from more
-           than 50 nations produce models of the BMW 3 Series and BMW 4 Series. The sedan is produced primarily for the European and American market. The BMW 3 Series Touring, BMW 4 Series Coupe
-           and M4 Coupe are exclusively manufactured in Munich and exported from there into the world. With the start of production of the BMW M4 Coupe in February 2014 the M production returned back to this location after 28 years.
-
-            In addition, the Munich parent plant the production of various variants of BMW petrol engines, BMW diesel engines and high-performance engines for BMW M models is resident. Pressing tools and body parts, which are delivered from Munich to other plants in the production network, round off the product spectrum.</p>
-            <img src="product.jpg" height="300px" wight="250px">
-     
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-      <br>
-      <h2>our latest producuts</h2>
-      <h5> 11 5, 2018</h5>
-      <img src="latest.jpg" height="300px" wight="250px">
-      <h5>10.05.2018
-          <p>BMW is taking to the world's oceans to support the sailor Boris Herrmann on a trip around the globe. Herrmann will solo-pilot the Malizia in the Vendée Globe yacht... read more</p>
-      </h5>
-      <img src="latest2.jpg" height="300px" wight="250px">
-      <p>Some text..</p>
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-  </div>
-</div>
-
-<div class="footer">
-  <h2>Footer</h2>
-</div>
-
-</body>
+   
 </html>
