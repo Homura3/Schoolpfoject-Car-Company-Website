@@ -23,6 +23,7 @@ ul {
 }
 
 li {
+    position:relative;
     display:inline-block;/*allow the list items to stay side by side*/
     background-color: rgb(255, 255, 255);
     vertical-align: middle;
@@ -74,3 +75,14 @@ li a:hover {
 .language:hover .LangHidden {
         transform: translateY(100%);
 }
+
+.products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+
+
