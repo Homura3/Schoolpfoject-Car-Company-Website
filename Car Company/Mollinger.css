@@ -86,19 +86,15 @@ li>a:hover {
 
 .products{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
     border: 1px black;
      text-align: center;
      box-sizing: border-box; 
-  
-
-    
-
-    
-
+     padding: 25px;
 }
+
 
 .image{
     display: inline-block;
@@ -110,4 +106,34 @@ li>a:hover {
 
 }
 
+.qwe{
+    display: flex;  
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column; 
+}
+.ert{
+    display: flex;
+    align-content: flex-start;
+}
 
+.bg{
+    background-color: rgba(46, 139, 86, 0.651);
+    
+}
+
+.under{
+    background-color: rgba(155, 155, 36, 0.767)
+
+}
+
+.mypicture{
+
+}
+
+.OneProduct{
+    display: flex;
+    flex-direction: column;
+    
+}
