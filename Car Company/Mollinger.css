@@ -118,12 +118,12 @@ li>a:hover {
     align-content: flex-start;
 }
 
-.bg{
+{
     background-color: rgba(46, 139, 86, 0.651);
     
 }
 
-.under{
+{
     background-color: rgba(155, 155, 36, 0.767)
 
 }
@@ -133,12 +133,24 @@ li>a:hover {
 .OneProduct{
     display: flex;
     flex-direction: column;
-   
 
+    
 }
 
 .TwoProducts{
-    flex-direction: row;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
+}
+.h1 {
+    padding: 25px; 
+}
+.h6 {
+    padding: 25px;
+}
+
+html{
+    background-image:url("space.jpg");
+    background-repeat: no-repeat;
+  
 }
