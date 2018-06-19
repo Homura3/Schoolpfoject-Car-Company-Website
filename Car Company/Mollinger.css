@@ -116,25 +116,24 @@ li>a:hover {
 .ert{
     display: flex;
     align-content: flex-start;
-}
 
-{
+
+
     background-color: rgba(46, 139, 86, 0.651);
     
-}
 
-{
+
+
     background-color: rgba(155, 155, 36, 0.767)
 
 }
-
 
 
 .OneProduct{
     display: flex;
     flex-direction: column;
 
-    
+
 }
 
 .TwoProducts{
