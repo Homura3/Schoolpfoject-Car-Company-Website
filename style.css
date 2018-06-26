@@ -74,3 +74,9 @@ h1{
     background-color: darkorange;
     font-family: "Roboto", sans-serif;
 }
+.flag{
+    width: 60px;
+    height: auto;
+    float: left;
+
+}
