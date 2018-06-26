@@ -28,8 +28,11 @@ header
 .main-nav li.active a{
     border: 1px solid white;
 }
-.main-nav li a:hover{border: 1px solid white;
- }
+.main-nav li a:hover
+  { 
+      border: 1px solid white;
+  }
+
 .logo img{
     width: 150px;
     height: auto;
